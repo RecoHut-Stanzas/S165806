@@ -5,30 +5,25 @@ In many social situations, like parties and road trips, groups of people with di
 ## Project structure
 ```
 .
-├── artifacts                         
-│   ├── le_item.pkl                            # item label encoder
-│   ├── le_user.pkl                            # user label encoder
-│   └── models                                 # holds temp model files
-├── code
-│   ├── __init__.py
-│   └── load_data.py                           # download raw dataset into bronze data layer
-├── data
-│   ├── bronze                                 # holds raw dataset file
-│   └── silver
-│       ├── test.parquet.gz                    # preprocessed test data
-│       └── train.parquet.gz                   # preprocessed train data
-├── docs                                
-├── extras
-├── LICENSE
-├── notebooks
-│   ├── reco-tut-gpr-01-data-ingestion.ipynb   # data ingestion notebook
-│   └── reco-tut-gpr-t1-02-notebook.ipynb      # track-1 (T1) end-to-end notebook
-├── outputs
-│   ├── eval_results.csv                       # T1 evaluation results
-│   ├── model_result_ensemble.csv              # T1 ensemble model results
-│   ├── rankings_avg.csv                       # T1 average rankings
-│   └── results.csv                            # T1 final outputs
-├── README.md
-├── requirements.txt
-└── setup.py
+├── [ 59M]  artifacts
+│   ├── [ 10M]  le_item.pkl
+│   ├── [ 49M]  le_user.pkl
+│   └── [4.0K]  models
+├── [ 44M]  data
+│   ├── [4.0K]  bronze
+│   └── [ 44M]  silver
+│       ├── [5.8M]  test.parquet.gz
+│       └── [ 38M]  train.parquet.gz
+├── [ 23K]  images
+│   └── [ 19K]  process_flow.svg
+├── [ 66K]  nbs
+│   └── [ 62K]  P969119_Group_Playlist_Recommendations_on_Million_Songs_Dataset_using_Surprise_SVD_and_NMF_Model.ipynb
+├── [ 38M]  outputs
+│   ├── [  50]  eval_results.csv
+│   ├── [ 38M]  model_result_ensemble.csv
+│   ├── [ 510]  rankings_avg.csv
+│   └── [  53]  results.csv
+└── [2.0K]  README.md
+
+ 141M used in 8 directories, 11 files
 ```
